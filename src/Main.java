@@ -3,7 +3,7 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args) throws SQLException {
         //Creo una nuova istanza della classe SuperHero:
-        SuperHero superHero = new SuperHero();
+        //SuperHero superHero = new SuperHero();
 
         // Creo la tabella (se già non esiste):
         //superHero.createTable();
@@ -17,6 +17,11 @@ public class Main {
         //superHero.updateQuery();
 
         // Faccio la stampa di tutti i supereroi:
-        superHero.printAllHeroes();
+        //superHero.printAllHeroes();
+
+        //Creo una nuova istanza della classe Azienda:
+        Azienda azienda = new Azienda();
+
+        azienda.query4();
     }
 }

@@ -153,6 +153,6 @@ public class SuperHero {
         superHero.printAllHeroes();
         superHero.updateQuery();
 
-        TeamName teamName = TeamName.getTeamNameEnumFromId(id);
+        //TeamName teamName = TeamName.getTeamNameEnumFromId(id);
     }
 }
