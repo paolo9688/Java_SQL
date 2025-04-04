@@ -1,13 +1,11 @@
-// package it.develhope.sql;
-
 import java.sql.*;
 
 public class SuperHero {
 
     // Parametri del database (URL, USER, PASSWORD):
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/develhope";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/supereroi";
     private static final String USER = "root";
-    private static final String PASS = "admin";
+    private static final String PASS = "root";
 
     // Metodo per la creazione di una tabella:
     public void createTable() throws SQLException {
@@ -158,5 +156,3 @@ public class SuperHero {
         TeamName teamName = TeamName.getTeamNameEnumFromId(id);
     }
 }
-
-
